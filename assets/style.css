@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-size: 100px;
+  
+    text-align: center;
+    position: relative;
+    animation-name:button;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes button{
+0%{
+    transform: rotate(0deg);
+ 
+}
+100%{
+    transform: rotate(360deg);
+  
+
+}
+
+}
